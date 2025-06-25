@@ -57,21 +57,39 @@ export default function ContactForm() {
           {/* Email & Socials */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 gap-6">
             <div>
-              <h1 className="text-white text-md sm:text-2xl hover:text-green-500 transition-all font-normal mb-1 underline decoration-1 underline-offset-4">
+              <h1 className="text-white text-md sm:text-xl hover:text-green-500 transition-all font-normal mb-1 underline decoration-1 underline-offset-4">
                 muhamadzainalam.dev@gmail.com
               </h1>
             </div>
 
             <div className="flex center gap-4 mx-auto sm:mx-0 md:mx-0 lg:mx-0">
-              {[Linkedin, Github, Twitter, Dribbble].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="text-white p-3 rounded-full backdrop-blur-xl border hover:text-black hover:bg-white transition-colors"
-                >
-                  <Icon size={24} />
-                </a>
-              ))}
+              <a
+                href="https://www.linkedin.com/in/muhammad-fareed-alam-798612370/"
+                target="_blank"
+                className="text-white p-3 rounded-full backdrop-blur-xl border hover:text-black hover:bg-white transition-colors"
+              >
+                <Linkedin size={24} />
+              </a>
+              <a
+                href="https://github.com/muhamadzainalam-dev"
+                target="_blank"
+                className="text-white p-3 rounded-full backdrop-blur-xl border hover:text-black hover:bg-white transition-colors"
+              >
+                <Github size={24} />
+              </a>
+              <a
+                href="https://x.com/mdzainalamdev"
+                target="_blank"
+                className="text-white p-3 rounded-full backdrop-blur-xl border hover:text-black hover:bg-white transition-colors"
+              >
+                <Twitter size={24} />
+              </a>
+              <a
+                href="#"
+                className="text-white p-3 rounded-full backdrop-blur-xl border hover:text-black hover:bg-white transition-colors"
+              >
+                <Dribbble size={24} />
+              </a>
             </div>
           </div>
 

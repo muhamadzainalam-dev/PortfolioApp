@@ -10,8 +10,8 @@ export default function FooterImage() {
         setIsVisible(entry.isIntersecting);
       },
       {
-        threshold: 0.1, // Trigger when 10% of the element is visible
-        rootMargin: "50px", // Start animation 50px before element enters viewport
+        threshold: 0.1,
+        rootMargin: "50px",
       }
     );
 
@@ -29,11 +29,16 @@ export default function FooterImage() {
   return (
     <div
       ref={imageRef}
-      className={`transform transition-all duration-1000 ease-out -my-20 -mx-5 ${
+      className={`transform transition-all duration-1000 ease-out -my-5 px-8 ${
         isVisible ? "translate-y-0 opacity-15" : "-translate-y-20 opacity-0"
       }`}
     >
-      <img src="/footer_image.png" alt="" />
+      {/* ZAIN text */}
+      <div className="flex justify-center items-center z-10">
+        <h1 className="text-[16vw] sorabold text-white opacity-35 tracking-[0.2em]">
+          ZAIN
+        </h1>
+      </div>
     </div>
   );
 }

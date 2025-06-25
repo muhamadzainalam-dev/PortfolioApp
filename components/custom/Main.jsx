@@ -22,7 +22,7 @@ export default function Main() {
       </div>
 
       {/* Certificate Section */}
-      <div id="resume" className="pt-24 scroll-mt-20">
+      <div id="certificates" className="pt-24 scroll-mt-20">
         <Certicates />
       </div>
 

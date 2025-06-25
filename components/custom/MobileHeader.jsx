@@ -10,10 +10,12 @@ import {
   FaPaperPlane,
 } from "react-icons/fa";
 import { BsFillChatQuoteFill } from "react-icons/bs";
+import { PiCertificateFill } from "react-icons/pi";
 
 const items = [
   { title: "About", icon: FaUser, href: "#about" },
   { title: "RESUME", icon: FaFileAlt, href: "#resume" },
+  { title: "CERTIFICATES", icon: PiCertificateFill, href: "#certificates" },
   { title: "Services", icon: FaCog, href: "#services" },
   { title: "Portfolio", icon: FaBriefcase, href: "#projects" },
   { title: "TESTIMONIALS", icon: BsFillChatQuoteFill, href: "#testimonials" },

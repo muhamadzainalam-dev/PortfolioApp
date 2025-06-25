@@ -59,12 +59,14 @@ export default function ProfileCard() {
         </a>
         <a
           href="https://github.com/muhamadzainalam-dev"
+          target="_blank"
           className="text-white p-3 rounded-full backdrop-blur-xl border hover:text-black hover:bg-white transition-colors"
         >
           <Github size={24} />
         </a>
         <a
           href="https://x.com/mdzainalamdev"
+          target="_blank"
           className="text-white p-3 rounded-full backdrop-blur-xl border hover:text-black hover:bg-white transition-colors"
         >
           <Twitter size={24} />
