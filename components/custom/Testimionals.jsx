@@ -8,65 +8,65 @@ const testimonials = [
   {
     id: 1,
     quote:
-      "Shahmir is an exceptional MERN stack developer. His problem-solving skills, work ethic, and ability to deliver high-quality work make him an invaluable asset.",
-    company: "Flexify Fusions",
-    role: "Asad Ali, Co-Founder & COO",
+      "Zain's grasp on full-stack web development is beyond his years. His ability to build polished, scalable apps with React and Node is truly impressive.",
+    company: "Pixelate Digital Solutions",
+    role: "Areeb Khan, Senior Developer",
   },
   {
     id: 2,
     quote:
-      "A huge plus for our projects. Shahmir’s front-end and back-end mix, along with his tech trend awareness, really helped our team succeed.",
-    company: "Freelance Project",
-    role: "Tahoor Ahmed, Full Stack Developer",
+      "Zain brought both technical skill and creativity to our front-end projects. His UI precision and clean code helped us deliver fast, responsive apps.",
+    company: "Freelance Collaboration",
+    role: "Amina Sheikh, Front-End Engineer",
   },
   {
     id: 3,
     quote:
-      "Proactive and solution-driven, Shahmir's seamless integration of front-end and back-end skills played a key role in project success.",
-    company: "Coursera Certified Team",
-    role: "Izaan Khan, Technical Project Manager",
+      "I was amazed by Zain's dedication and speed. He built a fully functional MERN app with modern features, exceeding expectations.",
+    company: "Hackathon Team",
+    role: "Hashir Rauf, Full-Stack Developer",
   },
   {
     id: 4,
     quote:
-      "Shahmir is a skilled, dedicated developer who easily solves complex issues. His expertise in software development is remarkable.",
-    company: "UI/UX Collaboration",
-    role: "Farzana Khan, UI/UX Designer",
+      "Zain thinks like a designer and codes like an engineer. His UI/UX instincts and coding consistency make him a powerful asset to any dev team.",
+    company: "Design Integration Project",
+    role: "Mehak Tariq, UI/UX Specialist",
   },
   {
     id: 5,
     quote:
-      "Shahmir's collaborative mindset and proficiency in development consistently benefit our company. A valuable asset to any team.",
-    company: "Content Team",
-    role: "Syeda Faiza Fatima, Content Writer",
+      "Always proactive, always learning — Zain impressed us with his ability to debug complex issues and optimize backend performance.",
+    company: "Node.js Project",
+    role: "Osama Bashir, Backend Engineer",
   },
   {
     id: 6,
     quote:
-      "With strong backend expertise and a great attitude, Shahmir made a major impact on our architecture and code quality.",
-    company: "Design & Dev Team",
-    role: "Sundas Siddique, UX/UI Designer",
+      "Zain’s collaborative spirit and quick adaptability made remote teamwork seamless. He delivers on time with solid, production-ready code.",
+    company: "Remote Dev Team",
+    role: "Iqra Naveed, Project Coordinator",
   },
   {
     id: 7,
     quote:
-      "Shahmir brings positive energy and dedication to every task. A hardworking employee any team would be lucky to have.",
-    company: "SMM & Branding Team",
-    role: "Rameen Khan, Content Marketer",
+      "Zain’s attention to detail in responsive design is outstanding. He ensures every pixel looks and feels right, no matter the screen.",
+    company: "UI Polish Taskforce",
+    role: "Anaya Noor, Product Designer",
   },
   {
     id: 8,
     quote:
-      "A standout backend developer. Shahmir delivers scalable solutions and writes clean, efficient code with a strong grasp on server-side tech.",
-    company: "Dev Team",
-    role: "Bakhtawar Saleem, Node.js Developer",
+      "A solid full-stack developer with a passion for learning. Zain picks up new tools fast and builds solutions that actually solve real problems.",
+    company: "DevLab Bootcamp",
+    role: "Taha Imran, Technical Mentor",
   },
   {
     id: 9,
     quote:
-      "A skilled backend engineer whose collaborative efforts and technical skills made a huge impact on our projects. Highly recommended!",
-    company: "Backend Team",
-    role: "Jawad Shaikh, Developer",
+      "Zain’s growth mindset and consistency make him a future tech leader. He’s a rare combination of discipline, creativity, and skill.",
+    company: "Mentorship Program",
+    role: "Sana Farooq, Senior Software Engineer",
   },
 ];
 

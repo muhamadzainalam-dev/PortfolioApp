@@ -31,40 +31,40 @@ export default function ProfileCard() {
       {/* Name and Title */}
       <div className="mb-4">
         <h1 className="text-3xl sm:text-4xl font-bold text-white mb-1">
-          Shahmir Ali
+          Zain Alam
         </h1>
         <p className="text-green-400 font-semibold tracking-wider text-sm sm:text-base">
-          Software Developer
+          Web Developer
         </p>
       </div>
 
       {/* Email */}
       <div className="mb-4">
         <a
-          href="mailto:shahmirali966@gmail.com"
+          href="mailto:muhamadzainalam.dev@gmail.com"
           className="text-white hover:text-green-400 transition-colors underline break-all"
         >
-          shahmirali966@gmail.com
+          muhamadzainalam.dev@gmail.com
         </a>
       </div>
 
       {/* Social Icons */}
       <div className="flex justify-center flex-wrap gap-4 mb-6">
         <a
-          href="https://linkedin.com/in/ali3eer/"
+          href="https://www.linkedin.com/in/muhammad-fareed-alam-798612370/"
           target="_blank"
           className="text-white p-3 rounded-full backdrop-blur-xl border hover:text-black hover:bg-white transition-colors"
         >
           <Linkedin size={24} />
         </a>
         <a
-          href="#"
+          href="https://github.com/muhamadzainalam-dev"
           className="text-white p-3 rounded-full backdrop-blur-xl border hover:text-black hover:bg-white transition-colors"
         >
           <Github size={24} />
         </a>
         <a
-          href="#"
+          href="https://x.com/mdzainalamdev"
           className="text-white p-3 rounded-full backdrop-blur-xl border hover:text-black hover:bg-white transition-colors"
         >
           <Twitter size={24} />

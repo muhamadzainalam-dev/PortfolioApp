@@ -74,15 +74,15 @@ export default function MobileHeader() {
       <div className="flex items-center space-x-3">
         <Image
           src="/dp.jpg"
-          alt="ZenG Profile"
+          alt="Muhammad Zain Alam's Profile"
           width={32}
           height={32}
           className="object-cover w-15 h-15 rounded-full"
         />
         <div className="flex flex-col">
-          <span className="text-white font-semibold text-xl">Shahmir</span>
+          <span className="text-white font-semibold text-xl">Zain</span>
           <span className="text-green-400 text-sm font-medium uppercase">
-            SOFTWARE DEV
+            Web Developer
           </span>
         </div>
       </div>
@@ -97,7 +97,7 @@ export default function MobileHeader() {
         </button>
 
         <div
-          className={`absolute -right-1 mt-10 border w-[90vw] bg-black z-50 overflow-hidden transition-all duration-300 ease-in-out shadow-xl ${
+          className={`absolute -right-2 mt-10 border w-[90vw] bg-black z-50 overflow-hidden transition-all duration-300 ease-in-out shadow-xl ${
             isOpen ? "max-h-[1000px] opacity-100" : "max-h-0 opacity-0"
           }`}
         >

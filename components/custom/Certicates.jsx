@@ -7,69 +7,33 @@ import { TextAnimate } from "../magicui/text-animate";
 const certificates = [
   {
     id: 1,
-    title: "Back-End Development",
-    organization: "Coursera",
-    date: "Oct 2023",
+    title: "Professional Front-End Developer",
+    organization: "Coursera (Meta)",
+    date: "May 2024",
     status: "Issued",
-    credentialId: "659QZUPZDXLS",
-    image:
-      "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=1756339200&v=beta&t=6kTnO4ZRabpLNVJmRQK-srFYJyBGXEhPikLTe6WQirQ",
-    verifyUrl: "#", // Replace with actual URL if available
+    credentialId: "META-FE-2024-01",
+    image: "https://mma.prnewswire.com/media/1673006/Meta_Logo.jpg?p=facebook", // Replace with actual image path or link
+    verifyUrl: "#", // Replace with actual verification URL if available
   },
   {
     id: 2,
-    title:
-      "Certified Business Professional Master Executive Business Management",
-    organization: "Nestlé",
-    date: "Sep 2020",
+    title: "Developing Front-End Apps with React",
+    organization: "Coursera (IBM)",
+    date: "Apr 2024",
     status: "Issued",
-    credentialId: "BM-10042301",
+    credentialId: "IBM-REACT-2024-02",
     image:
-      "https://media.licdn.com/dms/image/v2/C4E0BAQGaL-YyJ8xd7Q/company-logo_100_100/company-logo_100_100/0/1630615758178/nestle_s_a__logo?e=1756339200&v=beta&t=qQmPaSRyYUi9fRBwL45FRiM3eKYOWUgiBGzG4sBPouo",
-    verifyUrl: "#", // Replace with actual URL if available
+      "data:image/png;base64,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",
+    verifyUrl: "#",
   },
   {
     id: 3,
-    title: "SQL Database Advance",
-    organization: "HackerRank",
-    date: "Sep 2020",
+    title: "Advanced React",
+    organization: "Coursera (Meta)",
+    date: "Mar 2024",
     status: "Issued",
-    credentialId: "85A162DDBFEA",
-    image:
-      "https://media.licdn.com/dms/image/v2/D560BAQE8MivsmbT7Ig/company-logo_100_100/company-logo_100_100/0/1705561459405/hackerrank_logo?e=1756339200&v=beta&t=JQHGRk1yz2pV9ZCic7_0sZlDPsa9mUfdC7k0F3Zg6xo",
-    verifyUrl: "#", // Replace with actual credential URL
-  },
-  {
-    id: 4,
-    title: "SQL Database",
-    organization: "HackerRank",
-    date: "Sep 2020",
-    status: "Issued",
-    credentialId: "953EB6EEEDB01",
-    image:
-      "https://media.licdn.com/dms/image/v2/D560BAQE8MivsmbT7Ig/company-logo_100_100/company-logo_100_100/0/1705561459405/hackerrank_logo?e=1756339200&v=beta&t=JQHGRk1yz2pV9ZCic7_0sZlDPsa9mUfdC7k0F3Zg6xo",
-    verifyUrl: "#",
-  },
-  {
-    id: 5,
-    title: "Introduction to Programming Using Python",
-    organization: "HackerRank",
-    date: "Jul 2020",
-    status: "Issued",
-    credentialId: "26B84629Fb1A",
-    image:
-      "https://media.licdn.com/dms/image/v2/D560BAQE8MivsmbT7Ig/company-logo_100_100/company-logo_100_100/0/1705561459405/hackerrank_logo?e=1756339200&v=beta&t=JQHGRk1yz2pV9ZCic7_0sZlDPsa9mUfdC7k0F3Zg6xo",
-    verifyUrl: "#",
-  },
-  {
-    id: 6,
-    title: "Microsoft Certified Software Engineer",
-    organization: "Microsoft",
-    date: "Jun 2020",
-    status: "Issued",
-    credentialId: "", // Not shown in image
-    image:
-      "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1756339200&v=beta&t=t_vRhtkgf1aCLVtuTtJvuQOu9xej8MnL7I8iwhoamBs",
+    credentialId: "META-ADVREACT-2024-03",
+    image: "https://mma.prnewswire.com/media/1673006/Meta_Logo.jpg?p=facebook",
     verifyUrl: "#",
   },
 ];

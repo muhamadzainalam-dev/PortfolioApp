@@ -8,24 +8,24 @@ import { TypeAnimation } from "react-type-animation";
 const statsData = [
   {
     id: 1,
-    number: "5+",
-    description: "Years In Software Development",
+    number: "3+",
+    description: "Years of Web Development Experience",
   },
   {
     id: 2,
-    number: "5+",
-    description: "Results Across Industries",
+    number: "25+",
+    description: "Real-World Projects Successfully Delivered",
   },
   {
     id: 3,
-    number: "20+",
-    description: "Real-World Projects Delivered",
+    number: "10+",
+    description: "Technologies Mastered (React, Next.js, MongoDB & more)",
   },
 ];
 
 // Full paragraph text that will be split into sentences
 const fullDescription =
-  "Passionate Software Developer with a sharp focus on back-end development, adeptly navigating the entire software development life cycle. Proficient in a versatile array of programming languages, including C++, C#, Python, Java, JavaScript and even the intricacies of Arduino. My journey in the tech world has been driven by deep curiosity, and my hands-on experience has honed my skills. Beyond coding, I bring a robust background in project management and a talent for building lasting customer relationships.";
+  "Passionate Web Developer with a strong command of front-end and full-stack technologies, especially React.js, Next.js, and the MERN stack. Skilled in crafting responsive, interactive user interfaces with clean, efficient code. My journey in tech began with curiosity and has grown into a deep commitment to building smooth, high-performing web experiences. From HTML and CSS to modern tools like Tailwind, GitHub, and Vercel, I bring hands-on experience across the development cycle. I thrive on turning ideas into real products and continuously expanding my skills in the ever-evolving world of web development.";
 
 // Split by sentences for animation
 const descriptionSentences = fullDescription
@@ -141,15 +141,15 @@ export default function About() {
           </p>
           <TypeAnimation
             sequence={[
-              "Software Developer",
+              "Web Developer",
               1000,
-              "Python Developer",
+              "Front-End Developer",
               1000,
-              "Mern Stack Developer",
+              "React.js / Next.js Developer",
               1000,
-              "Backend Developer",
+              "MERN Stack Developer",
               1000,
-              "Full Stack Developer",
+              "Creative UI Developer",
               1000,
             ]}
             speed={50}

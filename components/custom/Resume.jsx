@@ -5,47 +5,37 @@ import { TextAnimate } from "@/components/magicui/text-animate";
 
 const experiences = [
   {
-    title: "Backend & Database Engineer",
-    company: "Sandstech LLC",
-    period: "Mar 2024 - Present",
+    title: "Front-End Web Developer",
+    company: "Pixelate Digital Solutions",
+    period: "2021 – 2024",
   },
   {
-    title: "MERN Stack Developer",
-    company: "Internative Labs LLC",
-    period: "Jun 2023 - Feb 2024",
+    title: "Web Developer Intern",
+    company: "Code Craft",
+    period: "2020 – 2021",
   },
   {
-    title: "Full Stack & Database Administrator",
-    company: "Dawood Fiber Mills Ltd.",
-    period: "Jan 2022 - Jun 2023",
-  },
-  {
-    title: "ERP Solution Developer",
-    company: "Dominion Stores - Dubai",
-    period: "Aug 2020 - Dec 2021",
-  },
-  {
-    title: "Intern C# Developer",
-    company: "Top Dev",
-    period: "Sep 2019 - Aug 2020",
+    title: "Freelance Web Developer",
+    company: "Self-Employed / Remote",
+    period: "2022 – Present",
   },
 ];
 
 const education = [
   {
-    title: "Masters in Computer Science",
-    company: "Virtual University of Pakistan",
-    period: "Jan 2022 - Feb 2024",
+    title: "Diploma in Web Designing",
+    company: "APTECH",
+    period: "2024 – 2027",
   },
   {
-    title: "ACMA (Cost and Management Accounting)",
-    company: "Institute of Cost and Management of Pakistan",
-    period: "2020 - 2023",
+    title: "HSC in Computer Science",
+    company: "D.J. Sindh Government Science College",
+    period: "2024 – 2026",
   },
   {
-    title: "Graduation in Computer Science",
-    company: "University of Karachi",
-    period: "2015 - 2021",
+    title: "SSC in Computer Science",
+    company: "Millenniums Education System",
+    period: "2022 – 2024",
   },
 ];
 

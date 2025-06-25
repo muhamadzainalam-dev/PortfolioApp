@@ -7,32 +7,32 @@ import { TextAnimate } from "../magicui/text-animate";
 const services = [
   {
     sequence: "01",
-    title: "Backend API Development",
+    title: "Responsive Web Design & Development",
     image: "one.png",
   },
   {
     sequence: "02",
-    title: "Database Design & Management",
+    title: "Front-End Development with React & Next.js",
     image: "two.png",
   },
   {
     sequence: "03",
-    title: "Authentication & Security",
+    title: "Full-Stack Web Applications (MERN Stack)",
     image: "three.png",
   },
   {
     sequence: "04",
-    title: "DevOps Collaboration",
+    title: "API Integration & Testing (Postman / Thunder Client)",
     image: "four.png",
   },
   {
     sequence: "05",
-    title: "Full-Stack Application Development",
+    title: "Version Control & Collaboration (Git / GitHub)",
     image: "five.png",
   },
   {
     sequence: "06",
-    title: "Database Visualization & ERD Design",
+    title: "Website Deployment & Hosting (Vercel)",
     image: "six.png",
   },
 ];

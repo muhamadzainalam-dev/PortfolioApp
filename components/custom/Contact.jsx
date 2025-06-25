@@ -32,7 +32,9 @@ export default function ContactForm() {
 
       {/* Animated Title */}
       <div className="relative inline-flex items-center mb-2">
-        <p className="text-white text-2xl sm:text-5xl md:text-6xl leading-tight mr-2">Lets</p>
+        <p className="text-white text-2xl sm:text-5xl md:text-6xl leading-tight mr-2">
+          Lets
+        </p>
         <TypeAnimation
           sequence={["Design", 1000, "Craft", 1000, "Go", 1000]}
           speed={50}
@@ -40,7 +42,9 @@ export default function ContactForm() {
           repeat={Infinity}
         />
       </div>
-      <h1 className="text-xl sm:text-4xl md:text-5xl mb-8">Incredible Work Together</h1>
+      <h1 className="text-xl sm:text-4xl md:text-5xl mb-8">
+        Incredible Work Together
+      </h1>
 
       <div className="flex justify-center mb-10">
         <div
@@ -53,12 +57,9 @@ export default function ContactForm() {
           {/* Email & Socials */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 gap-6">
             <div>
-              <h1 className="text-white text-xl sm:text-2xl hover:text-green-500 transition-all font-normal mb-1 underline decoration-1 underline-offset-4">
-                shahmirali966@gmail.com
+              <h1 className="text-white text-md sm:text-2xl hover:text-green-500 transition-all font-normal mb-1 underline decoration-1 underline-offset-4">
+                muhamadzainalam.dev@gmail.com
               </h1>
-              <p className="text-gray-400 text-sm">
-                Based in San Francisco, CA
-              </p>
             </div>
 
             <div className="flex center gap-4 mx-auto sm:mx-0 md:mx-0 lg:mx-0">
