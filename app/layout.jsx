@@ -36,7 +36,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="container dark sorareg">
+      <body className="dark sorareg">
         {children}
         <SmoothCursor />
       </body>
