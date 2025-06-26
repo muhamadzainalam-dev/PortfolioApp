@@ -2,7 +2,7 @@ import "./globals.css";
 import { SmoothCursor } from "@/components/ui/smooth-cursor";
 
 export const metadata = {
-  metadataBase: new URL("https://muhammudzainalam.vercel.app/"),
+  metadataBase: new URL("https://muhammudzainalam.vercel.app"),
   title: "Muhammad Zain Alam | Web Developer",
   description:
     "Welcome to the official portfolio of Muhammad Zain Alam — a passionate front-end and full-stack JavaScript developer from Karachi, Pakistan. Explore cutting-edge web projects built with React, Next.js, MongoDB, and more. Discover real-world experience, industry-recognized certifications, and a deep commitment to clean code and modern design.",
@@ -11,7 +11,7 @@ export const metadata = {
     title: "Muhammad Zain Alam | Web Developer",
     description:
       "Discover the work of Muhammad Zain Alam — a skilled web developer with a focus on modern UI/UX, full-stack development (MERN), and deployment-ready solutions. Featuring real-world projects, certifications, and hands-on experience with the latest web technologies.",
-    url: "https://muhammudzainalam.vercel.app/",
+    url: "https://muhammudzainalam.vercel.app",
     siteName: "Muhammad Zain Alam",
     images: [
       {
