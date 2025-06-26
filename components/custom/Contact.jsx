@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { TypeAnimation } from "react-type-animation";
 
 export default function ContactForm() {
+  const [showMessage, setShowMessage] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -58,7 +59,9 @@ export default function ContactForm() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 gap-6">
             <div>
               <h1 className="text-white text-md sm:text-xl hover:text-green-500 transition-all font-normal mb-1 underline decoration-1 underline-offset-4">
-                muhamadzainalam.dev@gmail.com
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=muhamadzainalam.dev@gmail.com" target="_blank">
+                  muhamadzainalam.dev@gmail.com
+                </a>
               </h1>
             </div>
 
@@ -118,12 +121,25 @@ export default function ContactForm() {
               rows={4}
               className="text-xl border-0 border-b-2 border-gray-600 rounded-none bg-transparent px-0 text-white placeholder:text-gray-500 focus:border-white focus-visible:ring-0"
             />
-            <Button
-              type="submit"
-              className="bg-green-500 hover:bg-green-600 text-black font-semibold rounded-full px-8 py-3 text-lg"
+            <button
+              onClick={() => setShowMessage(true)}
+              className="bg-green-500 hover:bg-green-600 text-black font-semibold rounded-full px-8 py-3 text-lg transition duration-300"
             >
               Get Started!
-            </Button>
+            </button>
+
+            {/* Message with transition */}
+            <p
+              className={`mx-auto w-full text-sm text-white text-center border-2 p-2 rounded-xl bg-red-700 transition-all duration-500 ease-in-out
+             ${
+               showMessage
+                 ? "opacity-100 translate-y-0"
+                 : "opacity-0 -translate-y-5 pointer-events-none"
+             }`}
+            >
+              This service is currently unavailable. Please try contacting us
+              via email!
+            </p>
           </form>
         </div>
       </div>

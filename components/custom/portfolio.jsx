@@ -125,8 +125,6 @@ function AnimatedProjectCard({ children, index, projectId }) {
 }
 
 function ProjectCard({ project, style, onHover, isHovered }) {
-  const [imageLoaded, setImageLoaded] = useState(false);
-
   const getStatusColor = (status) => {
     switch (status) {
       case "Completed":
@@ -142,7 +140,7 @@ function ProjectCard({ project, style, onHover, isHovered }) {
 
   return (
     <div
-      className="w-full h-[32rem] sm:h-[34rem] overflow-hidden mx-auto rounded-3xl p-6 sm:p-8 shadow-2xl border border-[#2d2f33] hover:border-[#404348] transition-all duration-500 mb-20 relative bg-gradient-to-br from-white/8 to-white/2 backdrop-blur-lg group cursor-pointer"
+      className="w-full h-auto overflow-hidden mx-auto rounded-3xl p-6 sm:p-8 shadow-2xl border border-[#2d2f33] hover:border-[#404348] transition-all duration-500 mb-20 relative bg-gradient-to-br from-white/8 to-white/2 backdrop-blur-lg group cursor-pointer"
       style={style}
       onMouseEnter={() => onHover(project.id)}
       onMouseLeave={() => onHover(null)}
@@ -151,19 +149,12 @@ function ProjectCard({ project, style, onHover, isHovered }) {
       aria-label={`Project: ${project.title}`}
     >
       {/* Image Container */}
-      <div className="relative rounded-2xl overflow-hidden h-3/5 sm:h-2/3 mb-4">
-        <div
-          className={`absolute inset-0 bg-gray-800 animate-pulse transition-opacity duration-300 ${
-            imageLoaded ? "opacity-0" : "opacity-100"
-          }`}
-        />
+      <div className="relative rounded-2xl overflow-hidden h-3/5 sm:h-[30rem] mb-4">
+        <div className="absolute inset-0" />
         <img
-          src={project.image || "/placeholder.svg"}
+          src={project.image}
           alt={`${project.title} preview`}
-          className={`w-full h-full object-cover rounded-2xl transition-all duration-500 group-hover:scale-105 ${
-            imageLoaded ? "opacity-100" : "opacity-0"
-          }`}
-          onLoad={() => setImageLoaded(true)}
+          className="w-full h-full object-cover rounded-2xl"
         />
 
         {/* Status Badge */}

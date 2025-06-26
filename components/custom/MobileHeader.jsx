@@ -99,7 +99,7 @@ export default function MobileHeader() {
         </button>
 
         <div
-          className={`absolute -right-2 mt-10 border w-[90vw] bg-black z-50 overflow-hidden transition-all duration-300 ease-in-out shadow-xl ${
+          className={`absolute -right-1 mt-10 border w-[90vw] bg-black z-50 overflow-hidden transition-all duration-300 ease-in-out shadow-xl ${
             isOpen ? "max-h-[1000px] opacity-100" : "max-h-0 opacity-0"
           }`}
         >

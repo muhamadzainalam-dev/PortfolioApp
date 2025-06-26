@@ -141,11 +141,11 @@ export default function About() {
           </p>
           <TypeAnimation
             sequence={[
-              "Web Developer",
+              "Full-Stack Developer",
               1000,
               "Front-End Developer",
               1000,
-              "React.js / Next.js Developer",
+              "React & Next.JS Dev  ",
               1000,
               "MERN Stack Developer",
               1000,

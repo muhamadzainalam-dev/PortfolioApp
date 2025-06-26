@@ -41,7 +41,8 @@ export default function ProfileCard() {
       {/* Email */}
       <div className="mb-4">
         <a
-          href="mailto:muhamadzainalam.dev@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=muhamadzainalam.dev@gmail.com"
+          target="_blank"
           className="text-white hover:text-green-400 transition-colors underline break-all"
         >
           muhamadzainalam.dev@gmail.com
