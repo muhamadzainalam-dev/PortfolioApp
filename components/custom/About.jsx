@@ -8,17 +8,17 @@ import { TypeAnimation } from "react-type-animation";
 const statsData = [
   {
     id: 1,
-    number: "3+",
+    number: "2+",
     description: "Years of Web Development Experience",
   },
   {
     id: 2,
-    number: "25+",
+    number: "20+",
     description: "Real-World Projects Successfully Delivered",
   },
   {
     id: 3,
-    number: "10+",
+    number: "15+",
     description: "Technologies Mastered (React, Next.js, MongoDB & more)",
   },
 ];

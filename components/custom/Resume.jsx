@@ -5,19 +5,9 @@ import { TextAnimate } from "@/components/magicui/text-animate";
 
 const experiences = [
   {
-    title: "Front-End Web Developer",
-    company: "Pixelate Digital Solutions",
-    period: "2021 – 2024",
-  },
-  {
-    title: "Web Developer Intern",
-    company: "Code Craft",
-    period: "2020 – 2021",
-  },
-  {
     title: "Freelance Web Developer",
     company: "Self-Employed / Remote",
-    period: "2022 – Present",
+    period: "2023 – Present",
   },
 ];
 
@@ -25,7 +15,7 @@ const education = [
   {
     title: "Diploma in Web Designing",
     company: "APTECH",
-    period: "2024 – 2027",
+    period: "2022 – 2024",
   },
   {
     title: "HSC in Computer Science",

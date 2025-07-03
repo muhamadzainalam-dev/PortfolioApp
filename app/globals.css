@@ -122,18 +122,11 @@
   }
 }
 
-.container {
+.containerr {
   position: relative;
-  min-height: 100vh; /* Changed from height: 100vh */
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; /* Changed from center to allow natural flow */
-  z-index: 0;
-  /* Removed overflow: hidden */
-  padding: 20px; /* Add some padding for content */
 }
 
-.container::before {
+.containerr::before {
   content: "";
   position: fixed; /* Changed from absolute to fixed */
   top: 0;

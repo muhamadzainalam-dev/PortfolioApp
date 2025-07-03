@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Linkedin, Github, Twitter, Dribbble } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Phone, Github, Twitter, Dribbble } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { TypeAnimation } from "react-type-animation";
@@ -59,7 +58,10 @@ export default function ContactForm() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 gap-6">
             <div>
               <h1 className="text-white text-md sm:text-xl hover:text-green-500 transition-all font-normal mb-1 underline decoration-1 underline-offset-4">
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=muhamadzainalam.dev@gmail.com" target="_blank">
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=muhamadzainalam.dev@gmail.com"
+                  target="_blank"
+                >
                   muhamadzainalam.dev@gmail.com
                 </a>
               </h1>
@@ -67,11 +69,11 @@ export default function ContactForm() {
 
             <div className="flex center gap-4 mx-auto sm:mx-0 md:mx-0 lg:mx-0">
               <a
-                href="https://www.linkedin.com/in/muhammad-fareed-alam-798612370/"
+                href="https://wa.me/+923163834219"
                 target="_blank"
                 className="text-white p-3 rounded-full backdrop-blur-xl border hover:text-black hover:bg-white transition-colors"
               >
-                <Linkedin size={24} />
+                <Phone size={24} />
               </a>
               <a
                 href="https://github.com/muhamadzainalam-dev"

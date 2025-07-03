@@ -9,7 +9,7 @@ const testimonials = [
     id: 1,
     quote:
       "Zain's grasp on full-stack web development is beyond his years. His ability to build polished, scalable apps with React and Node is truly impressive.",
-    company: "Pixelate Digital Solutions",
+    company: "Freelance Project",
     role: "Areeb Khan, Senior Developer",
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     id: 3,
     quote:
       "I was amazed by Zain's dedication and speed. He built a fully functional MERN app with modern features, exceeding expectations.",
-    company: "Hackathon Team",
+    company: "Freelance Project",
     role: "Hashir Rauf, Full-Stack Developer",
   },
   {
@@ -58,7 +58,7 @@ const testimonials = [
     id: 8,
     quote:
       "A solid full-stack developer with a passion for learning. Zain picks up new tools fast and builds solutions that actually solve real problems.",
-    company: "DevLab Bootcamp",
+    company: "DevLab",
     role: "Taha Imran, Technical Mentor",
   },
   {

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import {
-  Linkedin,
+  Phone,
   Github,
   Twitter,
   Dribbble,
@@ -52,11 +52,11 @@ export default function ProfileCard() {
       {/* Social Icons */}
       <div className="flex justify-center flex-wrap gap-4 mb-6">
         <a
-          href="https://www.linkedin.com/in/muhammad-fareed-alam-798612370/"
+          href="https://wa.me/+923163834219"
           target="_blank"
           className="text-white p-3 rounded-full backdrop-blur-xl border hover:text-black hover:bg-white transition-colors"
         >
-          <Linkedin size={24} />
+          <Phone size={24} />
         </a>
         <a
           href="https://github.com/muhamadzainalam-dev"
