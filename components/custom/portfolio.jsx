@@ -47,7 +47,7 @@ const projects = [
     id: 3,
     title: "Portfolio",
     status: "Completed",
-    image: "/portfolio.jpg",
+    image: "/portfolio.png",
     description:
       "A personal portfolio website showcasing my projects, skills, certifications, and experience as a full-stack developer. Designed with a sleek UI and smooth animations for an engaging user experience.",
     technologies: ["Next.js", "Tailwind", "Framer Motion", "Node.js"],
