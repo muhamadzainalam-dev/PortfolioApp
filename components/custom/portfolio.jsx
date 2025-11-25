@@ -24,7 +24,7 @@ const projects = [
       "API",
     ],
     status: "completed",
-    image: "/stock.png",
+    image: "/1.png",
     githubUrl: "https://github.com/muhamadzainalam-dev/Stock_Management_System",
     liveUrl: "https://stock-management-system-3ofo.vercel.app/",
     completedDate: "2024-01",
@@ -47,7 +47,7 @@ const projects = [
     id: 3,
     title: "Portfolio",
     status: "Completed",
-    image: "/portfolio.png",
+    image: "/2.png",
     description:
       "A personal portfolio website showcasing my projects, skills, certifications, and experience as a full-stack developer. Designed with a sleek UI and smooth animations for an engaging user experience.",
     technologies: ["Next.js", "Tailwind", "Framer Motion", "Node.js"],
@@ -60,7 +60,7 @@ const projects = [
     id: 4,
     title: "QuickServe - Food Delivery App",
     status: "Completed",
-    image: "/quickserve.jpg",
+    image: "/quickserve.png",
     description:
       "A fast and reliable food delivery app with real-time tracking, restaurant recommendations, and user-friendly payment options.",
     technologies: ["MongoDB", "Express.js", "React", "Node.js"],
@@ -408,7 +408,7 @@ export default function Portfolio() {
           size="lg"
           className="bg-gradient-to-r from-green-500 to-green-800 hover:from-green-900 hover:to-green-1000 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 group"
         >
-          <a href="https://github.com/muhamadzainalam-dev" target="_blank">
+          <a href="https://project-tree-bice.vercel.app" target="_blank">
             View All Projects
           </a>
           <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
