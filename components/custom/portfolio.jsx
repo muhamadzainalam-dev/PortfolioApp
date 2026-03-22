@@ -10,64 +10,261 @@ import { Badge } from "@/components/ui/badge";
 const projects = [
   {
     id: 1,
-    title: "Stock Management System",
+    title: "Ai ChatBot App",
     description:
-      "Robust inventory management system enabling efficient item tracking, storage, and updates using a full MERN stack setup.",
+      "AI chatbot app with smart reminders and alarms, featuring a responsive chat UI, conversation handling, and production-ready architecture.",
     technologies: [
-      "Next.JS",
-      "React.JS",
-      "Tailwind CSS",
-      "JavaScript",
-      "Express",
       "Node.js",
-      "MongoDB",
-      "API",
+      "Next.js",
+      "Express.js",
+      "Firebase",
+      "Socket.IO",
+      "JWT",
+      "Google OAuth",
+      "Cloudinary",
+      "Multer",
+      "Node Cron",
+      "Web Push",
+      "Groq SDK",
+      "Chrono Node",
+      "React Markdown",
+      "Tailwind CSS ",
+      "React Toastify",
     ],
-    status: "completed",
-    image: "/1.png",
-    githubUrl: "https://github.com/muhamadzainalam-dev/Stock_Management_System",
-    liveUrl: "https://stock-management-system-3ofo.vercel.app/",
-    completedDate: "2024-01",
-    category: "Web Development",
+    image: "/2.png",
+    githubUrl: "https://github.com/muhamadzainalam-dev/AiChatBotApp_Fe",
+    liveUrl: "https://lotaa-ai.vercel.app",
+    completedDate: "2026-03",
   },
   {
     id: 2,
-    title: "Free Chat App",
+    title: "Car Renting App",
     description:
-      "Full-stack real-time chat application with secure backend, WebSocket integration, and responsive frontend chat UI.",
-    technologies: ["React", "Node.js", "Express", "Socket.io"],
-    status: "completed",
-    image: "/chat.png",
-    githubUrl: "https://github.com/muhamadzainalam-dev/Free_Chat_Frontend",
-    liveUrl: "https://freechat-mocha.vercel.app",
-    completedDate: "2024-01",
-    category: "Web Development",
+      "A complete car rental web application featuring listing management, booking flow, and an admin panel for operations—built to demonstrate end-to-end product development.",
+    technologies: [
+      "Next.js",
+      "MongoDB",
+      "Stripe",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "MUI",
+      "Clerk",
+      "Framer Motion",
+      "Radix UI",
+    ],
+    image: "/8.png",
+    githubUrl: "https://github.com/muhamadzainalam-dev/CarRentingApp",
+    liveUrl: "https://gentlewheel.vercel.app",
+    completedDate: "2026-03",
   },
   {
     id: 3,
-    title: "Portfolio",
-    status: "Completed",
-    image: "/2.png",
+    title: "Video Calling App",
     description:
-      "A personal portfolio website showcasing my projects, skills, certifications, and experience as a full-stack developer. Designed with a sleek UI and smooth animations for an engaging user experience.",
-    technologies: ["Next.js", "Tailwind", "Framer Motion", "Node.js"],
-    liveUrl: "https://muhammudzainalam.vercel.app/",
-    githubUrl: "https://github.com/muhamadzainalam-dev",
-    completedDate: "2025-05",
-    category: "Frontend",
+      "Real-time communication application using WebRTC for peer-to-peer media with signaling via backend services—built to demonstrate realtime engineering and networking concepts.",
+    technologies: [
+      "Node.js",
+      "React Router",
+      "Tailwind CSS",
+      "Vite",
+      "Express.js",
+      "Socket.IO",
+      "WebRTC",
+      "React Player",
+    ],
+    image: "/4.png",
+    githubUrl: "https://github.com/muhamadzainalam-dev/VideoCallingApp-Fe",
+    liveUrl: "https://video-calling-app-wheat.vercel.app",
+    completedDate: "2026-03",
   },
   {
     id: 4,
-    title: "QuickServe - Food Delivery App",
-    status: "Completed",
-    image: "/quickserve.png",
+    title: "Social Media App",
     description:
-      "A fast and reliable food delivery app with real-time tracking, restaurant recommendations, and user-friendly payment options.",
-    technologies: ["MongoDB", "Express.js", "React", "Node.js"],
-    liveUrl: "https://www.quickserve.live/",
-    githubUrl: "https://github.com/muhamadzainalam-dev",
-    completedDate: "2024-11",
-    category: "Full Stack",
+      "A modern, API-driven social media frontend built for smooth UX and scalable feature development.",
+    technologies: [
+      "Node.js",
+      "React",
+      "MongoDB",
+      "Express.js",
+      "JWT",
+      "React Router",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Vite",
+      "Axios",
+      "AWS S3",
+      "Google OAuth",
+      "Framer Motion",
+    ],
+    image: "/6.png",
+    githubUrl: "https://github.com/muhamadzainalam-dev/SocialMediaApp-Fe",
+    liveUrl: "https://synk-fe.vercel.app",
+    completedDate: "2026-03",
+  },
+  {
+    id: 5,
+    title: "Image Editing App",
+    description:
+      "A web-based image editing platform with compressor, resizer, cropper, enhancer, type converter, plus QR & barcode generator — designed for speed, usability, and optimized output for web performance.",
+    technologies: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "JSZip",
+      "Cheerio",
+      "ytdl-core",
+      "React Dropzone",
+      "React Easy Crop",
+      "React Qrcode",
+      "React Barcode",
+    ],
+    image: "/10.png",
+    githubUrl: "https://github.com/muhamadzainalam-dev/ImageEditingApp-Fe",
+    liveUrl: "https://freatoolshub.vercel.app",
+    completedDate: "2026-03",
+  },
+  {
+    id: 6,
+    title: "Stock Management App",
+    description:
+      "Inventory management web app to track products, quantities, and updates with a structured dashboard experience and a scalable codebase.",
+    technologies: [
+      "Next.js",
+      "React",
+      "MongoDB",
+      "Radix UI",
+      "TanStack Table",
+      "Recharts",
+      "Tailwind CSS",
+      "Framer Motion",
+    ],
+    image: "/12.png",
+    githubUrl: "https://github.com/muhamadzainalam-dev/StockManagementApp",
+    liveUrl: "https://stock-management-system-lilac-zeta.vercel.app",
+    completedDate: "2026-03",
+  },
+  {
+    id: 7,
+    title: "Chatting App",
+    description:
+      "Real-time chat app with a clean UI, smooth message flow, and socket-driven communication—built to demonstrate realtime systems and deployment readiness.",
+    technologies: [
+      "Next.js",
+      "React",
+      "Socket.IO Client",
+      "Radix UI",
+      "Tailwind CSS",
+      "Turbopack",
+      "JavaScript",
+      "ESLint",
+    ],
+    image: "/16.png",
+    githubUrl: "https://github.com/muhamadzainalam-dev/ChattingApp-Fe",
+    liveUrl: "https://freechat-mocha.vercel.app",
+    completedDate: "2026-03",
+  },
+  {
+    id: 8,
+    title: "E-Commerce App",
+    description:
+      "E-commerce web application showcasing product browsing, cart flow, and front-end architecture built for performance and clean UX.",
+    technologies: [
+      "Next.js",
+      "React",
+      "MongoDB",
+      "NextAuth.js",
+      "Tailwind CSS",
+      "Radix UI",
+      "Framer Motion",
+      "Axios",
+    ],
+    image: "/14.png",
+    githubUrl: "https://github.com/muhamadzainalam-dev/ECommerceApp",
+    liveUrl: "https://shopease-peach.vercel.app",
+    completedDate: "2026-03",
+  },
+  {
+    id: 9,
+    title: "Admin Dashboard",
+    description:
+      "Admin dashboard for managing bookings, vehicles, and customers with a clean UI, data-driven components, and a scalable front-end structure.",
+    technologies: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Radix UI",
+      "Framer Motion",
+      "Next Themes",
+      "Sonner",
+      "React Toastify",
+    ],
+    image: "/20.png",
+    githubUrl: "https://github.com/muhamadzainalam-dev/AdminDashboard",
+    liveUrl: "https://one-cick-drive-admin-dashboard.vercel.app",
+    completedDate: "2026-03",
+  },
+
+  {
+    id: 10,
+    title: "Waitlist App",
+    description:
+      "Landing page for users to join a waitlist — built with a scalable UI component setup and form handling.",
+    technologies: [
+      "React",
+      "Vite",
+      "Recharts",
+      "Tailwind CSS",
+      "Next Sitemap (SEO)",
+      "React Hook Form",
+      "Zod",
+      "React Query",
+    ],
+    image: "/22.png",
+    githubUrl: "https://github.com/muhamadzainalam-dev/WaitlistApp-Fe",
+    liveUrl: "https://lotaai.vercel.app",
+    completedDate: "2026-03",
+  },
+  {
+    id: 11,
+    title: "Landing Page App",
+    description:
+      "Modern landing page of a SaaS tool — built for clean UX, responsive design, and production-ready SEO.",
+    technologies: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Radix UI",
+      "React Hook Form",
+      "Zod",
+      "Next Sitemap (SEO)",
+      "Next Themes",
+    ],
+    image: "/24.png",
+    githubUrl: "https://github.com/muhamadzainalam-dev/LandingPageApp",
+    liveUrl: "https://agayn.vercel.app/",
+    completedDate: "2026-03",
+  },
+  {
+    id: 12,
+    title: "Portfolio",
+    description:
+      "Portfolio website built with Next.js to showcase projects, skills, and a clean modern UI/UX.",
+    technologies: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Radix UI",
+      "Motion",
+      "Next Sitemap (SEO)",
+      "Lucide React",
+      "ESLint",
+      "Turbopack",
+    ],
+    image: "/18.png",
+    githubUrl: "https://github.com/muhamadzainalam-dev/Portfolio",
+    liveUrl: "https://www.muhammudzainalam.dev",
+    completedDate: "2026-03",
   },
 ];
 
@@ -151,31 +348,13 @@ function ProjectCard({ project, style, onHover, isHovered }) {
       aria-label={`Project: ${project.title}`}
     >
       {/* Image Container */}
-      <div className="relative rounded-2xl overflow-hidden h-3/5 sm:h-[30rem] mb-4">
+      <div className="bg-black relative rounded-2xl overflow-hidden h-3/5 sm:h-[30rem] mb-4">
         <div className="absolute inset-0" />
         <img
           src={project.image}
           alt={`${project.title} preview`}
-          className="w-full h-full object-cover rounded-2xl"
+          className="w-full h-full object-contain rounded-2xl"
         />
-
-        {/* Status Badge */}
-        <Badge
-          className={`absolute left-4 bottom-4 px-3 py-1 text-xs font-semibold shadow-lg ${getStatusColor(
-            project.status
-          )}`}
-        >
-          {project.status}
-        </Badge>
-
-        {/* Category Badge */}
-        <Badge
-          variant="secondary"
-          className="absolute right-4 top-4 px-3 py-1 text-xs font-medium bg-black/50 text-white border-white/20"
-        >
-          <Tag className="w-3 h-3 mr-1" />
-          {project.category}
-        </Badge>
 
         {/* Hover Overlay */}
         <AnimatePresence>
@@ -234,7 +413,7 @@ function ProjectCard({ project, style, onHover, isHovered }) {
 
         {/* Technologies */}
         <div className="flex flex-wrap gap-2">
-          {project.technologies.slice(0, 3).map((tech, index) => (
+          {project.technologies.map((tech, index) => (
             <Badge
               key={index}
               variant="secondary"
@@ -243,14 +422,6 @@ function ProjectCard({ project, style, onHover, isHovered }) {
               {tech}
             </Badge>
           ))}
-          {project.technologies.length > 3 && (
-            <Badge
-              variant="secondary"
-              className="text-xs bg-white/10 text-gray-400 border-white/20"
-            >
-              +{project.technologies.length - 3}
-            </Badge>
-          )}
         </div>
 
         {/* Date */}
@@ -266,6 +437,7 @@ function ProjectCard({ project, style, onHover, isHovered }) {
 }
 
 export default function Portfolio() {
+  const [showAll, setShowAll] = useState(false);
   const [cardTransforms, setCardTransforms] = useState({});
   const [hoveredCard, setHoveredCard] = useState(null);
   const cardRefs = useRef({});
@@ -287,7 +459,7 @@ export default function Portfolio() {
       if (rect.top <= stackStart) {
         progress = Math.min(
           1,
-          Math.abs(rect.top - stackStart) / Math.abs(stackEnd - stackStart)
+          Math.abs(rect.top - stackStart) / Math.abs(stackEnd - stackStart),
         );
       }
 
@@ -375,7 +547,7 @@ export default function Portfolio() {
         animate={isPortfolioInView ? "visible" : "hidden"}
         className="relative"
       >
-        {projects.map((project, index) => (
+        {(showAll ? projects : projects.slice(0, 3)).map((project, index) => (
           <AnimatedProjectCard
             key={project.id}
             index={index}
@@ -398,22 +570,23 @@ export default function Portfolio() {
       </motion.div>
 
       {/* View All Projects Button */}
-      <motion.div
-        className="flex justify-center mt-12"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.8, duration: 0.6 }}
-      >
-        <Button
-          size="lg"
-          className="bg-gradient-to-r from-green-500 to-green-800 hover:from-green-900 hover:to-green-1000 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 group"
+      {!showAll && (
+        <motion.div
+          className="flex justify-center mt-12"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.8, duration: 0.6 }}
         >
-          <a href="https://project-tree-bice.vercel.app" target="_blank">
+          <Button
+            size="lg"
+            onClick={() => setShowAll(true)}
+            className="bg-gradient-to-r from-green-500 to-green-800 text-white px-8 py-3 rounded-full font-semibold"
+          >
             View All Projects
-          </a>
-          <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
-        </Button>
-      </motion.div>
+            <ArrowRight className="w-5 h-5 ml-2" />
+          </Button>
+        </motion.div>
+      )}
     </div>
   );
 }
