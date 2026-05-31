@@ -28,13 +28,13 @@ const projects = [
       "Groq SDK",
       "Chrono Node",
       "React Markdown",
-      "Tailwind CSS ",
+      "Tailwind CSS",
       "React Toastify",
     ],
     image: "/2.png",
     githubUrl: "https://github.com/muhamadzainalam-dev/AiChatBotApp_Fe",
     liveUrl: "https://lotaa-ai.vercel.app",
-    completedDate: "2026-03",
+    completedDate: "2026-05",
   },
   {
     id: 2,
@@ -55,7 +55,7 @@ const projects = [
     image: "/8.png",
     githubUrl: "https://github.com/muhamadzainalam-dev/CarRentingApp",
     liveUrl: "https://gentlewheel.vercel.app",
-    completedDate: "2026-03",
+    completedDate: "2025-10",
   },
   {
     id: 3,
@@ -75,7 +75,7 @@ const projects = [
     image: "/4.png",
     githubUrl: "https://github.com/muhamadzainalam-dev/VideoCallingApp-Fe",
     liveUrl: "https://video-calling-app-wheat.vercel.app",
-    completedDate: "2026-03",
+    completedDate: "2025-07",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ const projects = [
     image: "/6.png",
     githubUrl: "https://github.com/muhamadzainalam-dev/SocialMediaApp-Fe",
     liveUrl: "https://synk-fe.vercel.app",
-    completedDate: "2026-03",
+    completedDate: "2025-04",
   },
   {
     id: 5,
@@ -122,7 +122,7 @@ const projects = [
     image: "/10.png",
     githubUrl: "https://github.com/muhamadzainalam-dev/ImageEditingApp-Fe",
     liveUrl: "https://freatoolshub.vercel.app",
-    completedDate: "2026-03",
+    completedDate: "2026-01",
   },
   {
     id: 6,
@@ -142,7 +142,7 @@ const projects = [
     image: "/12.png",
     githubUrl: "https://github.com/muhamadzainalam-dev/StockManagementApp",
     liveUrl: "https://stock-management-system-lilac-zeta.vercel.app",
-    completedDate: "2026-03",
+    completedDate: "2024-08",
   },
   {
     id: 7,
@@ -162,7 +162,7 @@ const projects = [
     image: "/16.png",
     githubUrl: "https://github.com/muhamadzainalam-dev/ChattingApp-Fe",
     liveUrl: "https://freechat-mocha.vercel.app",
-    completedDate: "2026-03",
+    completedDate: "2025-01",
   },
   {
     id: 8,
@@ -182,7 +182,7 @@ const projects = [
     image: "/14.png",
     githubUrl: "https://github.com/muhamadzainalam-dev/ECommerceApp",
     liveUrl: "https://shopease-peach.vercel.app",
-    completedDate: "2026-03",
+    completedDate: "2024-11",
   },
   {
     id: 9,
@@ -202,7 +202,7 @@ const projects = [
     image: "/20.png",
     githubUrl: "https://github.com/muhamadzainalam-dev/AdminDashboard",
     liveUrl: "https://one-cick-drive-admin-dashboard.vercel.app",
-    completedDate: "2026-03",
+    completedDate: "2024-06",
   },
 
   {
@@ -223,7 +223,7 @@ const projects = [
     image: "/22.png",
     githubUrl: "https://github.com/muhamadzainalam-dev/WaitlistApp-Fe",
     liveUrl: "https://lotaai.vercel.app",
-    completedDate: "2026-03",
+    completedDate: "2024-04",
   },
   {
     id: 11,
@@ -243,7 +243,7 @@ const projects = [
     image: "/24.png",
     githubUrl: "https://github.com/muhamadzainalam-dev/LandingPageApp",
     liveUrl: "https://agayn.vercel.app/",
-    completedDate: "2026-03",
+    completedDate: "2024-03",
   },
   {
     id: 12,
@@ -264,7 +264,7 @@ const projects = [
     image: "/18.png",
     githubUrl: "https://github.com/muhamadzainalam-dev/Portfolio",
     liveUrl: "https://www.muhammudzainalam.dev",
-    completedDate: "2026-03",
+    completedDate: "2024-02",
   },
 ];
 
